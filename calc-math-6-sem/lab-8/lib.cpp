@@ -1,5 +1,3 @@
 #include "lib.h"
 
-void a() {
-    return;
-}
+namespace RungeKutta {}; // namespace RungeKutta
