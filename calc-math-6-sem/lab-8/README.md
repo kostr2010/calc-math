@@ -5,4 +5,5 @@ execute `build/lab-8/main` to generate csv file with the results of the equation
 # REQUIREMENTS
 
 cmake: cmake
+
 python3: pandas, matplotlib
