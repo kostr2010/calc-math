@@ -3,15 +3,24 @@ import matplotlib.pyplot as plt
 import pandas
 import sys
 
-points = pandas.read_csv(sys.argv[1])
-
-fig = plt.figure(figsize=(16, 16))
-ax = fig.add_subplot(111, projection='3d')
+points = pandas.read_csv("res_explicit.csv")
+fig1 = plt.figure(figsize=(16, 16))
+ax1 = fig1.add_subplot(111, projection='3d')
 
 x = points['x'].values
 y = points['y'].values
 z = points['z'].values
 
-ax.scatter(x, y, z, c='b', s=1)
+ax1.scatter(x, y, z, c='b', s=1)
+plt.savefig("res_explicit.png", dpi=500)
 
-plt.savefig(sys.argv[1][:-4] + '.png', dpi=500)
+
+points = pandas.read_csv("res_implicit.csv")
+fig2 = plt.figure(figsize=(16, 16))
+ax2 = fig2.add_subplot(111)
+
+x = points['y1'].values
+y = points['y2'].values
+
+ax2.scatter(x, y, c='b', s=1)
+plt.savefig("res_implicit.png", dpi=500)

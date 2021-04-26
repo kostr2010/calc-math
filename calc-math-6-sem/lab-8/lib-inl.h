@@ -28,6 +28,7 @@ Vec<DIM_VAR> CalculateRK(const ButcherTable<ORDER>& table, const Vec<DIM_VAR>& u
             }
         }
     } else {
+        // won't do because it's hard to do general Newton's method
         std::cout << "to be implemented\n";
     }
 
