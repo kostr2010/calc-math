@@ -1,6 +1,10 @@
 # DESCRIPTION
 
-execute `build/lab-8/main` to generate csv file with the results of the equation. then run `lab-8/plot.py <path-to-csv-table>` to generate plot
+`mkdir build && cd build && cmake .. && make -j`
+`./lab-8/main`
+`python3 ../lab-8/plot.py`
+
+after that, plots of the equations will be generated
 
 # REQUIREMENTS
 
