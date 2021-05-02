@@ -8,6 +8,6 @@ after that, plots of the equations will be generated
 
 # REQUIREMENTS
 
-cmake: cmake
+c/c++: cmake
 
 python3: pandas, matplotlib
