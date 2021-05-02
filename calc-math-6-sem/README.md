@@ -2,14 +2,16 @@
 
 each folder contains self-sufficient lab with it's own README
 
+`init-lab.sh` script does basic initialization of new lab
+
 # REQUIREMENTS
 
-cmake
+cmake, pandas, matplotlib
 
 # USE
 
-```mkdir build && cd build```
+`mkdir build && cd build`
 
-```cmake ../ && make -j```
+`cmake ../ && make -j`
 
-after that each lab will be compiled into executable in corresponding directory in ```build```
+after that each lab will be compiled into executable in corresponding directory in `build`
