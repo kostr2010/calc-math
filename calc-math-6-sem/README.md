@@ -14,4 +14,4 @@ cmake, pandas, matplotlib
 
 `cmake ../ && make -j`
 
-after that each lab will be compiled into executable in corresponding directory in `build`
+after that each lab will be compiled into executable in corresponding directory in `build` folder
