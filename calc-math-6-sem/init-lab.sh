@@ -24,6 +24,8 @@ target_link_libraries(main-$1 lib-$1)
 lib_h="""#ifndef LIB_H_INCLUDED
 #define LIB_H_INCLUDED
 
+#include <cstddef>
+
 #endif
 """
 
