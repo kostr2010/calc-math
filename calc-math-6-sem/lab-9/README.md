@@ -6,6 +6,8 @@ will create file `res.txt` containing grid of the solution for given differentia
 
 `res` folder contains an example of the result of this lab
 
+`task` folder contains the task of this lab
+
 # REQUIREMENTS
 
 c/c++: cmake

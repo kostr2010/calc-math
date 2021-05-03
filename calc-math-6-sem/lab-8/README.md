@@ -8,6 +8,8 @@ will generate plots of the solutions of given equations
 
 `res` folder contains an example of the result of this lab
 
+`task` folder contains the task of this lab
+
 # REQUIREMENTS
 
 c/c++: cmake

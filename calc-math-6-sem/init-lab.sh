@@ -9,6 +9,8 @@ how to build & run:
 
 \`res\` folder contains an example of the result of this lab
 
+\`task\` folder contains the task of this lab
+
 # REQUIREMENTS
 c/c++: cmake
 """
