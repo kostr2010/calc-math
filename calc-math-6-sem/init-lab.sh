@@ -53,12 +53,14 @@ if ! [[ $1 =~ $is_number ]] ; then
     echo "> error, expected lab's number" >&2; exit 1
 elif mkdir $dir ; then
     mkdir $dir/res
+    mkdir $dir/task
     touch $dir/main.cpp
     touch $dir/lib.h
     touch $dir/lib-inl.h
     touch $dir/lib.cpp
     touch $dir/README.md
     touch $dir/CMakeLists.txt
+    touch $dir/res/README.md
 
     echo "${cmake_lists_txt}">> $dir/CMakeLists.txt
     echo "${readme_md}" >> $dir/README.md
