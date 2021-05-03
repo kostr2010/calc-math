@@ -1,10 +1,12 @@
 # DESCRIPTION
 
-`mkdir build && cd build && cmake .. && make -j`
-`./lab-8/main`
+`./lab-8/main-8`
+
 `python3 ../lab-8/plot.py`
 
-after that, plots of the equations will be generated
+will generate plots of the solutions of given equations
+
+`res` folder contains an example of the result of this lab
 
 # REQUIREMENTS
 

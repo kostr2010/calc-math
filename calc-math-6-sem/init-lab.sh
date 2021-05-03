@@ -5,10 +5,9 @@ dir=lab-"$1"
 readme_md="""# DESCRIPTION
 how to build & run:
 
-\`mkdir build && cd build && cmake .. && make -j\`
-\`./lab-$1/main\`
+\`./lab-$1/main-$1\`
 
-\`res\` folder of \`lab-$1\` folder contains an example of the result of this lab
+\`res\` folder contains an example of the result of this lab
 
 # REQUIREMENTS
 c/c++: cmake
