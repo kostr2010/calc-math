@@ -1,8 +1,10 @@
 # DESCRIPTION
 
-`./lab-8/main-8` will generate `.csv` with results
+how to build & run:
 
-`python3 ../lab-8/plot.py` will generate plots of the solutions of given equations
+`./lab-10/main-10` will generate `.csv` with results
+
+`python3 ../lab-10/plot.py` will generate plot of the solution of given equation
 
 `res` folder contains an example of the result of this lab
 
